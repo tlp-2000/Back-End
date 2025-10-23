@@ -190,7 +190,7 @@ def mostrar_extrato():
     print("EXTRATO DO USUARIO:")  # título do extrato
     # imprime o extrato se existir; caso contrário, avisa que não há movimentações
     print(extrato if extrato else "Nenhuma movimentação registrada.")
-    print(f"SALDO ATUAL: {saldo:.2f} RS")  # exibe saldo formatado
+    print(f"SALDO ATUAL: {saldo:.2f} RS")  # exibe sald o formatado
     print("-----------------------")  # separador final
 
 
@@ -206,8 +206,8 @@ def criarconta(usuario):
     # 'usuario' é o nome do titular da conta (string esperada)
     global contalista  # indica que vamos modificar a lista global de contas
 
-    numero_conta = "0"  # inicia número da conta com '0' (pode ser adaptado)
-    agencia = "1"  # inicia agência com '1' (pode ser adaptado)
+    numero_conta = "0"  # inicia número da conta com '0' 
+    agencia = "1"  # inicia agência com '1' 
 
     # Gera 4 dígitos para agência e 4 para número da conta concatenando dígitos aleatórios
     for a in range(0, 4):
